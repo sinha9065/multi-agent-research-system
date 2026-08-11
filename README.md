@@ -49,3 +49,27 @@ An AI-powered multi-agent system that automates topic research and analysis. Giv
 
 4. **Set up environment variables**
    Create a `.env` file in the root directory and add your API keys:
+
+OPENAI_API_KEY=your_openai_api_key_here
+TAVILY_API_KEY=your_tavily_api_key_here
+
+## ▶️ How to Run
+
+```bash
+python app.py
+```
+
+## 📁 Project Structure
+multi-agent-research-system/
+├── agents.py # Agent definitions and logic
+├── app.py # Main application entry point
+├── pipeline.py # Research pipeline orchestration
+├── tools.py # Custom tools used by agents
+├── requirements.txt # Project dependencies
+└── README.md
+
+
+## 👤 Author
+
+**Shubham Sinha**
+📧 sinhashubham540@gmail.com
