@@ -27,47 +27,43 @@ An AI-powered multi-agent system that automates topic research and analysis. Giv
 
 ## 🚀 Installation
 
-1. **Clone the repository**
-```bash
-   git clone https://github.com/sinha9065/multi-agent-research-system.git
-   cd multi-agent-research-system
-```
+**1. Clone the repository**
 
-2. **Create a virtual environment** (recommended)
-```bash
-   python -m venv .venv
-   # Windows
-   .venv\Scripts\activate
-   # macOS/Linux
-   source .venv/bin/activate
-```
+    git clone https://github.com/sinha9065/multi-agent-research-system.git
+    cd multi-agent-research-system
 
-3. **Install dependencies**
-```bash
-   pip install -r requirements.txt
-```
+**2. Create a virtual environment (recommended)**
 
-4. **Set up environment variables**
-   Create a `.env` file in the root directory and add your API keys:
+    python -m venv .venv
+    # Windows
+    .venv\Scripts\activate
+    # macOS/Linux
+    source .venv/bin/activate
 
-OPENAI_API_KEY=your_openai_api_key_here
-TAVILY_API_KEY=your_tavily_api_key_here
+**3. Install dependencies**
+
+    pip install -r requirements.txt
+
+**4. Set up environment variables**
+
+Create a `.env` file in the root directory and add your API keys:
+
+    OPENAI_API_KEY=your_openai_api_key_here
+    TAVILY_API_KEY=your_tavily_api_key_here
 
 ## ▶️ How to Run
 
-```bash
-python app.py
-```
+    python app.py
 
 ## 📁 Project Structure
-multi-agent-research-system/
-├── agents.py # Agent definitions and logic
-├── app.py # Main application entry point
-├── pipeline.py # Research pipeline orchestration
-├── tools.py # Custom tools used by agents
-├── requirements.txt # Project dependencies
-└── README.md
 
+    multi-agent-research-system/
+    ├── agents.py          # Agent definitions and logic
+    ├── app.py             # Main application entry point
+    ├── pipeline.py        # Research pipeline orchestration
+    ├── tools.py            # Custom tools used by agents
+    ├── requirements.txt    # Project dependencies
+    └── README.md
 
 ## 👤 Author
 
