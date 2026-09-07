@@ -2,6 +2,8 @@
 
 An AI-powered multi-agent system that automates topic research and analysis. Give it a topic, and specialized agents work together to search, gather, and analyze information for you.
 
+**Live Demo:**[https://multi-agent-research-system-dgavsn8syjaktmzxpyutk8.streamlit.app/]
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green?logo=chainlink)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-black?logo=openai)
@@ -15,12 +17,13 @@ An AI-powered multi-agent system that automates topic research and analysis. Giv
 - 📊 **Data Processing** — cleans and structures scraped/searched data using BeautifulSoup & Pandas
 - ⚡ **Async Support** — faster and more efficient agent execution
 - 🔐 **Environment-based Config** — API keys managed securely via `.env`
+- 💬 **Interactive Follow-up Chat** — ask questions about the generated report and get context-aware answers
 
 ## 🛠️ Tech Stack
 
 - **Language:** Python
 - **AI Framework:** LangChain, LangChain-OpenAI
-- **LLM Provider:** OpenAI
+- **LLM Provider:** Groq
 - **Search Tool:** Tavily
 - **Web Scraping:** BeautifulSoup4, Requests, lxml
 - **Utilities:** Pydantic, Tenacity, Rich, orjson, tiktoken
@@ -53,7 +56,7 @@ Create a `.env` file in the root directory and add your API keys:
 
 ## ▶️ How to Run
 
-    python app.py
+    streamlit run app.py
 
 ## 📁 Project Structure
 
